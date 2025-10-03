@@ -29,3 +29,9 @@
 #navbar .navbar-container ul li:nth-child(3) {
   border-right: 1px solid white;
 }
+
+#navbar .navbar-container ul li:hover {
+  color: var(--btn-color);
+  cursor: pointer;
+  transition: all 300ms ease;
+}
