@@ -7,4 +7,16 @@
 
 body {
   --font-family: "Roboto", sans-serif;
+  --btn-color: #1db954;
+}
+
+.btn-primary {
+  background: var(--btn-color);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
